@@ -1,3 +1,68 @@
+2019-02-15 Update 3 detection toolbox
+
+- [Detectron(FAIR)](https://github.com/facebookresearch/Detectron): Detectron is Facebook AI Research's software system that implements state-of-the-art object detection algorithms, including [Mask R-CNN](https://arxiv.org/abs/1703.06870). It is written in Python and powered by the [Caffe2](https://github.com/caffe2/caffe2) deep learning framework.
+
+- [maskrcnn-benchmark(FAIR)](https://github.com/facebookresearch/maskrcnn-benchmark): Fast, modular reference implementation of Instance Segmentation and Object Detection algorithms in PyTorch.
+
+- [mmdetection(SenseTime&CUHK)](https://github.com/open-mmlab/mmdetection): mmdetection is an open source object detection toolbox based on PyTorch. It is a part of the open-mmlab project developed by [Multimedia Laboratory, CUHK](http://mmlab.ie.cuhk.edu.hk/).
+
+2019-01-25 Update 5 papers
+
+**3D Backbone Network for 3D Object Detection**
+
+- arXiv: https://arxiv.org/abs/1901.08373
+
+**Object Detection based on Region Decomposition and Assembly**
+
+- intro: AAAI 2019
+
+- arXiv: https://arxiv.org/abs/1901.08225
+
+**Bottom-up Object Detection by Grouping Extreme and Center Points**
+
+- intro: one stage 43.2% on COCO test-dev
+- arXiv: https://arxiv.org/abs/1901.08043
+- github: https://github.com/xingyizhou/ExtremeNet
+
+**ORSIm Detector: A Novel Object Detection Framework in Optical Remote Sensing Imagery Using Spatial-Frequency Channel Features**
+
+- intro: IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING
+
+- arXiv: https://arxiv.org/abs/1901.07925
+
+**Consistent Optimization for Single-Shot Object Detection**
+
+- intro: improves RetinaNet from 39.1 AP to 40.1 AP on COCO datase
+
+- arXiv: https://arxiv.org/abs/1901.06563
+
+2019-01-15 Update 1 paper
+
+**Learning Pairwise Relationship for Multi-object Detection in Crowded Scenes**
+
+- arXiv: https://arxiv.org/abs/1901.03796
+
+2019-01-14 Update 1 paper
+
+**RetinaMask: Learning to predict masks improves state-of-the-art single-shot detection for free**
+
+- arXiv: https://arxiv.org/abs/1901.03353
+- github: https://github.com/chengyangfu/retinamask
+
+2019-01-12 Update 1 paper
+
+**Region Proposal by Guided Anchoring**
+
+- intro: CUHK - SenseTime Joint Lab
+- arXiv: https://arxiv.org/abs/1901.03278
+
+2019-01-08 Update 1 paper
+
+**Scale-Aware Trident Networks for Object Detection**
+
+- intro: mAP of **48.4** on the COCO dataset
+- arXiv: https://arxiv.org/abs/1901.01892
+
 2019-01-04 Update 1 paper
 
 **Large-Scale Object Detection of Images from Network Cameras in Variable Ambient Lighting Conditions**

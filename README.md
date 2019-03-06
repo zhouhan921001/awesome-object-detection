@@ -38,6 +38,7 @@ This is a list of awesome articles about object detection. If you want to read t
 - Weakly Supervised Object Detection
 - Softer-NMS
 - 2018
+- 2019
 - Other
 
 Based on handong1587's github: https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html
@@ -820,6 +821,10 @@ https://github.com/Robert-JunWang/Pelee
 
 ## 3D Object Detection
 
+**3D Backbone Network for 3D Object Detection**
+
+- arXiv: https://arxiv.org/abs/1901.08373
+
 **LMNet: Real-time Multiclass Object Detection on CPU using 3D LiDARs**
 
 - arxiv: https://arxiv.org/abs/1805.04902
@@ -879,6 +884,51 @@ RepMet: Representative-based metric learning for classification and one-shot obj
 - intro: CMU & Face++
 - arXiv: https://arxiv.org/abs/1809.08545
 - github: https://github.com/yihui-he/softer-NMS
+
+## 2019
+
+**Object Detection based on Region Decomposition and Assembly**
+
+- intro: AAAI 2019
+
+- arXiv: https://arxiv.org/abs/1901.08225
+
+**Bottom-up Object Detection by Grouping Extreme and Center Points**
+
+- intro: one stage 43.2% on COCO test-dev
+- arXiv: https://arxiv.org/abs/1901.08043
+- github: https://github.com/xingyizhou/ExtremeNet
+
+**ORSIm Detector: A Novel Object Detection Framework in Optical Remote Sensing Imagery Using Spatial-Frequency Channel Features**
+
+- intro: IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING
+
+- arXiv: https://arxiv.org/abs/1901.07925
+
+**Consistent Optimization for Single-Shot Object Detection**
+
+- intro: improves RetinaNet from 39.1 AP to 40.1 AP on COCO datase
+
+- arXiv: https://arxiv.org/abs/1901.06563
+
+**Learning Pairwise Relationship for Multi-object Detection in Crowded Scenes**
+
+- arXiv: https://arxiv.org/abs/1901.03796
+
+**RetinaMask: Learning to predict masks improves state-of-the-art single-shot detection for free**
+
+- arXiv: https://arxiv.org/abs/1901.03353
+- github: https://github.com/chengyangfu/retinamask
+
+**Region Proposal by Guided Anchoring**
+
+- intro: CUHK - SenseTime Joint Lab
+- arXiv: https://arxiv.org/abs/1901.03278
+
+**Scale-Aware Trident Networks for Object Detection**
+
+- intro: mAP of **48.4** on the COCO dataset
+- arXiv: https://arxiv.org/abs/1901.01892
 
 ## 2018
 
@@ -1033,3 +1083,11 @@ RepMet: Representative-based metric learning for classification and one-shot obj
 
 - arxiv: https://arxiv.org/abs/1808.05560
 - youtube: https://youtu.be/xCYD-tYudN0
+
+# Detection Toolbox
+
+- [Detectron(FAIR)](https://github.com/facebookresearch/Detectron): Detectron is Facebook AI Research's software system that implements state-of-the-art object detection algorithms, including [Mask R-CNN](https://arxiv.org/abs/1703.06870). It is written in Python and powered by the [Caffe2](https://github.com/caffe2/caffe2) deep learning framework.
+
+- [maskrcnn-benchmark(FAIR)](https://github.com/facebookresearch/maskrcnn-benchmark): Fast, modular reference implementation of Instance Segmentation and Object Detection algorithms in PyTorch.
+
+- [mmdetection(SenseTime&CUHK)](https://github.com/open-mmlab/mmdetection): mmdetection is an open source object detection toolbox based on PyTorch. It is a part of the open-mmlab project developed by [Multimedia Laboratory, CUHK](http://mmlab.ie.cuhk.edu.hk/).
